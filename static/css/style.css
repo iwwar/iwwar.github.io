@@ -1,0 +1,165 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    color : white;
+}
+body{
+    background : url("../img/headerbg.jpg")
+}
+
+a{
+    text-decoration: none;
+    color : rgba(255,255,255,0.4);
+}
+
+a:hover{
+    text-decoration: none;
+    color : rgba(255,255,255,0.9);
+}
+
+
+#nav-item{
+    font-size: 18px;
+    border-radius : 0.3em;
+    border : 1px solid rgba(0,0,0,0.5);
+    text-decoration: none;
+    font-weight : 700;
+    background : transparent;
+    transition: 0.5s;
+    color : rgba(255,255,255,0.4);
+    width : inherit;
+}
+
+#navs{
+    padding : 0.7em; 
+    border-radius : 0.3em;
+    border : 1px solid rgba(0,0,0,0.5);
+    text-decoration: none;
+    font-weight : 700;
+    font-size : 18px;
+    background : transparent;
+    transition: 0.5s;
+    color : rgba(255,255,255,0.4);
+}
+
+#navs:hover{
+    background : rgba(255,255,255,0.2);
+    color : white; 
+    transition: 0.5s;
+}
+
+#layer{
+    background: rgba(0,0,0,0.5);
+}
+
+#head{
+    text-align : center;
+
+}
+
+.row{
+    display : flex table;
+    width : 100%;
+}
+
+#image{
+    display : flex;
+    float : right;
+}
+
+header {
+    background : url("../img/headerbg.jpg");
+    height : 20em;
+}
+
+#overlay{
+    background: rgba(0,0,0,0.7);
+    height : inherit;
+    color : white;
+    padding : 2em 1.5em;
+}
+
+.nav{
+    display : inline;
+    float:right;
+    margin-top : -2em;
+}
+
+#brand{
+    margin-left : 1em;
+}
+
+.logo{
+    display : flex;
+    width : 50%;
+}
+
+.container{
+    width : 1292px;
+    margin : 0 18em;
+    padding : 2em;
+    color : #6b00b3;
+    border : 2px solid white;
+    border-radius : 1em;
+    height : 39.2em;
+}
+
+#try{
+    padding : 1.5em;
+    background : #6b00b3;
+    border-radius : 0.5em;
+    border :2px solid  #a447e2;
+    margin : 10em 3em auto;
+}
+
+#try>a:hover{
+    font-size : 25px;
+    transition: 0.5s;
+}
+
+#try>a{
+    text-decoration: none;
+    color : white;
+    font-weight : 700;
+    font-size : 22px;
+    transition: 0.5s;
+}
+
+input[type=file]{
+    font-size: 20px;
+    margin-top : 2em;
+}
+
+
+.btn{
+    padding : 0.7em; 
+    border-radius : 0.3em;
+    border : 1px solid rgba(0,0,0,0.5);
+    margin : 5em 3em auto 17em;
+    text-decoration: none;
+    font-weight : 700;
+    font-size : 20px;
+    background : transparent;
+    transition: 0.5s;
+    border: 1px solid rgba(255,255,255,0.4);
+    color : rgba(255,255,255,0.4);
+}
+
+.btn:hover{
+    background : rgba(255,255,255,0.2);
+    color : white; 
+    transition: 0.5s;
+}
+
+#form{
+    text-align: center;;
+}
+
+#form>h3{
+    margin : 8em auto auto -10em;
+}
+
+#githubrepo{
+    color : skyblue !important;
+}
